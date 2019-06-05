@@ -1,0 +1,19 @@
+/*修改element组件的样式*/
+
+/*home.vue*/
+.indexCss .el-carousel__button{width:30px;height:2px;background-color: #35356A;border-radius: 2px;opacity: 1;}
+.indexCss .is-active button{background-color:#56ECFF;}
+
+/*register.vue*/
+.register .el-input__inner{border-radius: 0;border-style: hidden;border-color: transparent;-webkit-box-flex: 1;-ms-flex: 1;flex: 1;padding: 0;
+    overflow: hidden;font-family: inherit;font-size: inherit;font-weight: inherit;background: transparent;border: none;outline: none;resize: none;width: 100%;color: #fff;font-size: 16px;}
+.register .el-select{width: 100%;}
+.register .telCode .el-input{width: 60%;}
+
+/*invite.vue*/
+.vueQr img{padding: 2%;background-color: #fff;width: 98%;border-radius: 4px;}
+
+/*guessIndex.vue echartsK线图*/
+.guessIndex #echarts div:last-child{z-index: 999 !important;}
+.guessIndex .messUl .swiper-slide{color: #2D93EA;font-size: 12px;position: relative;width: 100%;height: auto;}
+.history .el-loading-mask{background: transparent;color: transparent;}
